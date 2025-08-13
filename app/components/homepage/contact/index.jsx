@@ -43,21 +43,21 @@ function ContactSection() {
           <div className="w-[75%] mb-4 flex flex-col gap-4 text-[0.7rem] md:text-xs lg:text-sm">
             <p className="flex items-center gap-3">
               <MdAlternateEmail
-                className="bg-[#8b98a5] p-1 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
+                className="bg-[#8b98a5] p-1 rounded-full hover:bg-gradient-to-r from-pink-500 to-violet-600 hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
                 size={22}
               />
               <span>{personalData.email}</span>
             </p>
             <p className="flex items-center gap-3">
               <IoMdCall
-                className="bg-[#8b98a5] p-1 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
+                className="bg-[#8b98a5] p-1 rounded-full hover:bg-gradient-to-r from-pink-500 to-violet-600 hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
                 size={22}
               />
               <span>{personalData.phone}</span>
             </p>
             <p className="flex items-center gap-3">
               <CiLocationOn
-                className="bg-[#8b98a5] p-1 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
+                className="bg-[#8b98a5] p-1 rounded-full hover:bg-gradient-to-r from-pink-500 to-violet-600 hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
                 size={22}
               />
               <span>{personalData.address}</span>
@@ -67,19 +67,19 @@ function ContactSection() {
             <div className="flex gap-3 mt-3">
               <Link target="_blank" href={personalData.github}>
                 <IoLogoGithub
-                  className="bg-[#8b98a5] p-1.5 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
+                  className="bg-[#8b98a5] p-1.5 rounded-full hover:bg-gradient-to-r from-pink-500 to-violet-600 hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
                   size={28}
                 />
               </Link>
               <Link target="_blank" href={personalData.linkedIn}>
                 <BiLogoLinkedin
-                  className="bg-[#8b98a5] p-1.5 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
+                  className="bg-[#8b98a5] p-1.5 rounded-full hover:bg-gradient-to-r from-pink-500 to-violet-600 hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
                   size={28}
                 />
               </Link>
               <Link target="_blank" href={personalData.stackOverflow}>
                 <FaStackOverflow
-                  className="bg-[#8b98a5] p-1.5 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
+                  className="bg-[#8b98a5] p-1.5 rounded-full hover:bg-gradient-to-r from-pink-500 to-violet-600 hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
                   size={28}
                 />
               </Link>

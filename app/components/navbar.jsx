@@ -16,19 +16,34 @@ function Navbar() {
         <ul className="mt-4 flex h-screen max-h-0 w-full flex-col items-start text-sm opacity-0 md:mt-0 md:h-auto md:max-h-screen md:w-auto md:flex-row md:space-x-1 md:border-0 md:opacity-100" id="navbar-default">
           <li>
             <Link className="block px-4 py-2 no-underline outline-none hover:no-underline" href="/#about">
-              <div className="text-sm text-white transition-all  hover:scale-125 duration-300 hover:text-[#FCD8CD] ">ABOUT</div>
+              <div className="text-sm text-white transition-all hover:scale-125 duration-300 
+               hover:bg-gradient-to-r hover:from-pink-500 hover:to-violet-600 
+               hover:bg-clip-text hover:text-transparent ">ABOUT</div>
             </Link>
           </li>
          
           <li>
-            <Link className="block px-4 py-2 no-underline outline-none hover:no-underline" href="/#skills"><div className="text-sm text-white transition-all  hover:scale-125 duration-300 hover:text-[#FCD8CD] ">SKILLS</div></Link>
+            <Link
+              className="block px-4 py-2 no-underline outline-none hover:no-underline"
+              href="/#skills"
+>
+              <div
+               className="text-sm text-white transition-all hover:scale-125 duration-300 
+               hover:bg-gradient-to-r hover:from-pink-500 hover:to-violet-600 
+               hover:bg-clip-text hover:text-transparent"
+               >SKILLS </div></Link>
+
           </li>
           <li>
-            <Link className="block px-4 py-2 no-underline outline-none hover:no-underline" href="/#education"><div className="text-sm text-white transition-all  hover:scale-125 duration-300 hover:text-[#FCD8CD] ">EDUCATION</div></Link>
+            <Link className="block px-4 py-2 no-underline outline-none hover:no-underline" href="/#education"><div className="text-sm text-white transition-all hover:scale-125 duration-300 
+               hover:bg-gradient-to-r hover:from-pink-500 hover:to-violet-600 
+               hover:bg-clip-text hover:text-transparent">EDUCATION</div></Link>
           </li>
           
           <li>
-            <Link className="block px-4 py-2 no-underline outline-none hover:no-underline" href="/#projects"><div className="text-sm text-white transition-all  hover:scale-125 duration-300 hover:text-[#FCD8CD] ">PROJECTS</div></Link>
+            <Link className="block px-4 py-2 no-underline outline-none hover:no-underline" href="/#projects"><div className="text-sm text-white transition-all hover:scale-125 duration-300 
+               hover:bg-gradient-to-r hover:from-pink-500 hover:to-violet-600 
+               hover:bg-clip-text hover:text-transparent ">PROJECTS</div></Link>
           </li>
         </ul>
       </div>
