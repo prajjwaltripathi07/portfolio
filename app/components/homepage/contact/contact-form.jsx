@@ -117,7 +117,7 @@ function ContactForm() {
                 <span>Sending Message...</span>:
                 <span className="flex items-center gap-1">
                   Send Message
-                  <TbMailForward size={20} />
+                  <TbMailForward size={20} /> 
                 </span>
               }
             </button>
